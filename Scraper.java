@@ -13,7 +13,6 @@ public class Scraper {
   private static final String baseUrl =
       "https://sfbay.craigslist.org/search/sss?query=iphone%208&sort=rel";
 
-
   public static void main(String[] args) {
     WebClient client = new WebClient();
     client.getOptions().setJavaScriptEnabled(false);
